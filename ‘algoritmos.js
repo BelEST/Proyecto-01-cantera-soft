@@ -47,4 +47,17 @@ function suma() {
     suma2()
 
 
-     }
+    let a = 6;
+    let b = 9;
+    let resultado = a + b;
+
+     if (resultado > 10) {
+        function permiso () {
+            return console.log("si");
+        }
+        permiso();
+
+      }else {
+        console.log("no");
+      }
+       
